@@ -151,6 +151,7 @@ const initData = () => {
         poster: "https://via.placeholder.com/300x200",
         title: `我是不一样的内容标题 ${i + 1}`,
         description: "我是不一样的内容...",
+        height: 200 + Math.floor(Math.random() * 100),
       });
     }
   } else {
@@ -164,6 +165,7 @@ const initData = () => {
         poster: "https://via.placeholder.com/300x200",
         title: `内容标题 ${i + 1}`,
         description: "内容描述文字...",
+        height: 200 + Math.floor(Math.random() * 100),
       });
     }
   }
